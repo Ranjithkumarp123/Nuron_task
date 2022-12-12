@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music_World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body >
+  <div class="drum_container d-flex flex-column p-3 bg-secondary text-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="centered"  id="top">Drum
+                <img src="images/main.png" class="img-fluid" alt="Cinque Terre"> Kit</h1>
+            </div>
+        </div>
+      </div>
+           
+           <div class="bg-container">  
+          <div class="row">
+             
+              <div class=" col-sm-2">
+                  <button class="buttons " onclick="crashSound()" id="crash_1"><h1 style="font-weight: bold; color: rgb(29, 148, 218); text-align: center;">W</h1>
+                </button>
+              </div>
+
+
+              <div class=" col-sm-2">
+                <button class="buttons" onclick="kickSound()" id="kick"><h1 style="font-weight: bold; color:rgb(29, 148, 218); text-align: center;">A</h1>
+                </button> 
+               </div>
+
+               <div class=" col-sm-2">
+                <button class="buttons" onclick="snareSound()" id="snare"><h1 style="font-weight: bold; color:rgb(29, 148, 218); text-align: center;">S</h1>
+              </button>
+            </div>
+
+            <div class=" col-sm-2">
+                <button class="buttons" onclick="tom_1Sound()" id="tom_1"><h1 style="font-weight: bold; color: rgb(29, 148, 218); text-align: center;">D</h1>
+              </button>
+            </div>
+
+            <div class=" col-sm-2">
+                <button class="buttons" onclick="tom_2Sound()" id="tom_2"><h1 style="font-weight: bold; color: rgb(29, 148, 218); text-align: center;">J</h1>
+              </button>
+            </div>
+
+            <div class=" col-sm-2">
+                <button class="buttons" onclick="tom_3Sound()" id="tom_3"><h1 style="font-weight: bold; color: rgb(29, 148, 218); text-align: center;">K</h1>
+              </button>
+            </div>
+
+            <div class="col-sm-2">
+                <button class="buttons" onclick="tom_4Sound()" id="tom_4"><h1 style="font-weight: bold; color: rgb(29, 148, 218); text-align: center;">L</h1>
+              </button>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Giving id to audio files to play the music -->
+  
+          <audio id="crashAudio">
+            <source src="music/crash.mp3" type="audio/mp3">
+          </audio>
+          <audio id="kickAudio">
+            <source src="music/kick-bass.mp3" type="audio/mp3">
+          </audio>
+          <audio id="snareAudio">
+            <source src="music/snare.mp3" type="audio/mp3">
+          </audio>
+          <audio id="tom_1Audio">
+            <source src="music/tom-1.mp3" type="audio/mp3">
+          </audio>
+          <audio id="tom_2Audio">
+            <source src="music/tom-2.mp3" type="audio/mp3">
+          </audio>
+          <audio id="tom_3Audio">
+            <source src="music/tom-3.mp3" type="audio/mp3">
+          </audio>
+          <audio id="tom_4Audio">
+            <source src="music/tom-4.mp3" type="audio/mp3">
+          </audio>
+
+          <!-- Adding footer on the botttom the page -->
+          <footer id="sticky-footer" class="py-2 bg-dark ">
+            <div class="container  text-center">
+              <small style="font-size: 22px; color: rgb(29, 148, 218);">www.nuron.co.in</small>
+              <a href="#" class="fa fa-facebook p-1"></a>
+              <a href="#" class="fa fa-twitter p-1"></a>
+              <a href ="#" class="fa fa-instagram p-1"></a>
+            </div>
+          </footer>
+        </div>
+        
+       
+</body>
+
+</html>

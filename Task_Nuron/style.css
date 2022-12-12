@@ -1,0 +1,116 @@
+.drum_container {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+   background-size: cover;
+   min-height: 100vh;
+   text-align: center;   
+   
+}
+
+#top{
+  font-weight: bold;  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+} 
+
+img{
+    width: 80px;
+    height:90px;
+}
+
+
+.bg-container{
+    background-image: radial-gradient(red, green, blue);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+
+}
+
+.buttons {
+    /* background-color:rgb(21, 177, 15); */
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    
+}
+
+#crash_1{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/crash.png);
+   
+}
+
+#kick{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/kick.png);
+    
+
+}
+
+#snare{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/snare.png);
+   
+}
+
+#tom_1{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/tom1.png);
+   
+}
+
+#tom_2{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/tom2.png);
+    
+}
+
+#tom_3{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/tom3.png);
+}
+
+#tom_4{
+    margin: 5px;
+    top:50%;
+    border-color:rgb(31, 197, 189);
+    border-radius: 15px;
+    border-width: 8px;
+    background-image: url(images/tom4.png);
+}
+
+#sticky-footer{
+    position:fixed;
+    bottom: 0;
+    width:100%;
+}
+
+
+
+
+
